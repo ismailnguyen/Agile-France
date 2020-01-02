@@ -11253,7 +11253,10 @@ a:focus,button:focus{
 }
 .iframe-container {
   overflow: hidden;
-  // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
-  padding-top: 56.25%;
   position: relative;
+}
+
+.is-sticky-on-scroll {
+    position: sticky;
+    top: 150px;
 }
