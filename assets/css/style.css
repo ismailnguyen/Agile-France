@@ -1,3 +1,17 @@
+/* Custom style - Agile France */
+
+.app-header {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.button.is-success.cfp-color {
+	background-color: #1ab394;
+}
+
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround{
     from{
