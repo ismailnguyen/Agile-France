@@ -46,16 +46,18 @@
 <body>
     <div class="app-container">
         
-        <div class="message is-medium is-primary is-announcement">
-		<div class="message-header is-justified-center">
-			<a class="button is-success" href="//sessionize.com/agile-france-2020/" target="_blank">Proposez votre sujet</a><hr class="spacer is-1 is-horizontal">
-			<hr class="spacer is-1 is-horizontal" />
-			<a class="button is-white" href="//www.weezevent.com/conference-agile-france-2020" target="_blank">Achetez votre billet</a>
-		</div>
-        </div>
+        
 
         <header class="app-header">
-            <nav class="navbar is-fixed-top">
+			<div class="message is-small is-primary is-announcement">
+				<div class="message-header is-justified-center">
+					<a class="button is-success cfp-color" href="//sessionize.com/agile-france-2020/" target="_blank">Proposez votre sujet</a><hr class="spacer is-1 is-horizontal">
+					<hr class="spacer is-1 is-horizontal" />
+					<a class="button is-white" href="./billeterie.html">Achetez votre billet</a>
+				</div>
+			</div>
+		
+            <nav class="navbar">
                 <div class="container">
                     <div class="navbar-brand">
                         <div class="navbar-item">
@@ -69,13 +71,20 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="navbar-burger burger" data-target="mainNav"></div>
+						
+						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+						</a>
                     </div>
                     <div class="navbar-menu" id="mainNav">
                         <div class="navbar-end"> 
 							<a href="#philosophie" class="navbar-item is-active js-scrollTo">A propos</a>
 							<a href="#date" class="navbar-item js-scrollTo">Quand ?</a>
 							<a href="#lieu" class="navbar-item js-scrollTo">Ou ?</a>
+							<a href="//sessionize.com/agile-france-2020/" target="_blank" class="navbar-item">CFP</a>
+							<a href="billeterie.html" class="navbar-item">Billetterie</a>
                             <a href="humanathon.html" class="navbar-item">Humanathon <span class="tag is-warning is-micro is-uppercase">Nouveau</span></a>
                         </div>
                     </div>
@@ -421,7 +430,7 @@
                             </div>
                         </a>
                         <hr class="spacer is-1" />
-                        <hr class="spacer is-1" />Une initiative soutenue par <a href="//agile-france.org/" target="_blank">l'association Agile France</a>
+                        <hr class="spacer is-1" /><a href="//agile-france.org/" target="_blank">&copy Agile France</a>
                         <hr class="spacer is-1" />
                         <p>L'association Agile France se donne pour but de soutenir des actions visant à promouvoir de près ou de loin la philosophie agile, sous toutes formes et pour tous publics, de préférence francophones.</p>
                     </div>
@@ -453,13 +462,10 @@
                                     <p class="menu-label">Suivez-nous</p>
                                     <ul class="menu-list">
                                         <li>
-                                            <a href="//twitter.com/MeetAgileFrance" target="_blank"> <img role="presentation" src="./assets/images/twitter.png" />Twitter</a>
+                                            <a href="//twitter.com/AgileFrance" target="_blank"> <img role="presentation" src="./assets/images/twitter.png" />Twitter</a>
                                         </li>
                                         <li>
                                             <a href="//www.linkedin.com/company/conference-agilefrance/" target="_blank"> <img role="presentation" src="./assets/images/linkedin.png" />Linkedin</a>
-                                        </li>
-                                        <li>
-                                            <a href="//www.meetup.com/fr-FR/Repetitions-Agile-France-Perfection-Games/" target="_blank"> <img role="presentation" src="./assets/images/meetup.png" />Meetup</a>
                                         </li>
                                     </ul>
                                 </div>
