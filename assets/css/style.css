@@ -12,7 +12,8 @@
 	background-color: #1ab394;
 }
 
-/*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
+/*!/*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
+
 @keyframes spinAround{
     from{
         transform:rotate(0deg)
